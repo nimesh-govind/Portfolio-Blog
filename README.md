@@ -76,8 +76,6 @@ Give proper credits. This could be a link to any repo which inspired you to buil
 ## License
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 ---------------------------------------------------------------------------------------
 
 **EXTRA**

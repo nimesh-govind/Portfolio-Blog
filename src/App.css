@@ -22,10 +22,18 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url(background-placeholder.jpeg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  width: 100%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  background: linear-gradient(black, white);
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +44,5 @@
     transform: rotate(360deg);
   }
 }
+
+
