@@ -22,19 +22,44 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-image: url(background-placeholder.jpeg);
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-  width: 100%;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-body {
-  background: linear-gradient(black, white);
+/***********************************************************************
+Background Image 
+***********************************************************************/
+
+/* .Background-Image {
+  background: url(me-and-taz.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+} */
+
+img {
+  max-width: 100%;
+  filter: grayscale(100%);
 }
+
+.maintitle {
+  position: absolute;
+  padding-right: 40rem;
+  margin-bottom: 20rem;
+  font-size: 200px;
+  font-family: 'Quicksand', sans-serif;
+}
+.maintitleline2 {
+  position: absolute;
+  font-size: 150px;
+  padding-right: 16rem;
+  margin-bottom: 0rem;
+  font-family: 'Montserrat', sans-serif;
+}
+/***********************************************************************/
+
 
 @keyframes App-logo-spin {
   from {
