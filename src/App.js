@@ -1,19 +1,21 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css"
-// import "./Landing.css";
-import background from "./me-and-taz.jpeg";
+import "./App.scss"
 
 function App() {
   return (
     <>
     <div className="App">
       <header className="">
-      {/* <img src={background} /> */}
         <p className="maintitle">Nimesh</p>
         <p className="maintitleline2">Govind</p>
+        <p className="leadsentence">I</p>
+        <p className="leadsentence2">Am</p>
+        <p className="jobtitle1">Full Stack Software Developer</p>
+        <p className="jobtitle2">Photographer & Videographer</p>
       </header>
       <div className="App-header">
+        <p>Home</p>
+        <p>About</p>
       <p>Additional content goes below</p>
         <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
