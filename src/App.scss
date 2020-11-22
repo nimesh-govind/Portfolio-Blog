@@ -3,9 +3,9 @@
 @import "2-layouts/layouts-dir";
 @import "3-modules/modules-dir";
 
-.App {
-  text-align: center;
-}
+// .App {
+//   text-align: center;
+// }
 
 .App-logo {
   height: 40vmin;
@@ -48,24 +48,6 @@ img {
   max-width: 100%;
   filter: grayscale(10%);
   opacity: 70%;
-}
-
-.maintitle {
-  position: absolute;
-  padding-right: 40rem;
-  margin-bottom: 20rem;
-  font-size: 185px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-}
-.maintitleline2 {
-  position: absolute;
-  font-size: 150px;
-  padding-right: 14rem;
-  margin-bottom: 0rem;
-  margin-top: 8rem;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
 }
 
 .leadsentence {
@@ -126,7 +108,7 @@ header {
   position: relative;
   transform-style: inherit;
   width: 100vw;
-  text-align: center;
+  // text-align: center;
   text-transform: uppercase;
 }
 
