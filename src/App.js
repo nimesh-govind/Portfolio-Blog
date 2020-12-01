@@ -11,7 +11,8 @@ function App() {
   return (
     <>
     <div className="App">
-      <header className="">
+      <header>
+        <div className="home-title">
         <svg id="nimesh-position" width="497" height="104" viewBox="0 0 497 104" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M79 102H65.896L13.192 22.08V102H0.0880127V1.488H13.192L65.896 81.264V1.488H79V102Z" stroke="white" strokeWidth="5"/>
           <path d="M114.442 1.632V102H101.338V1.632H114.442Z" stroke="white" strokeWidth="5"/>
@@ -28,24 +29,26 @@ function App() {
           <path d="M442.031 102H428.927L376.223 22.08V102H363.119V1.48798H376.223L428.927 81.264V1.48798H442.031V102Z" stroke="white" strokeWidth="5"/>
           <path d="M495.617 1.63198C506.561 1.63198 516.017 3.69598 523.985 7.82398C532.049 11.856 538.193 17.664 542.417 25.248C546.737 32.832 548.897 41.76 548.897 52.032C548.897 62.304 546.737 71.232 542.417 78.816C538.193 86.304 532.049 92.064 523.985 96.096C516.017 100.032 506.561 102 495.617 102H464.369V1.63198H495.617ZM495.617 91.2C508.577 91.2 518.465 87.792 525.281 80.976C532.097 74.064 535.505 64.416 535.505 52.032C535.505 39.552 532.049 29.808 525.137 22.8C518.321 15.792 508.481 12.288 495.617 12.288H477.473V91.2H495.617Z" stroke="white" strokeWidth="5"/>
         </svg>
-
-        {/* <p className="leadsentence">I</p>
-        <p className="leadsentence2">Am</p>
-        <p className="jobtitle1">Full Stack Software Developer</p>
-        <p className="jobtitle2">Photographer & Videographer</p> */}
+        </div>
+            <div className="title-1"> 
+              <h1 data-text="+ Full Stack Software Developer">+ Full Stack Software Developer</h1>
+            </div>
+            <div className="title-2">
+              <h1>+ Photographer & Videographer</h1>
+            </div>
       </header>
       <div className="App-header">
         <p>Home</p>
         <p>About</p>
       <p>Additional content goes below</p>
-        <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type 
           specimen book. It has survived not only five centuries, but also the leap into 
           electronic typesetting, remaining essentially unchanged. It was popularised in 
           the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
           and more recently with desktop publishing software like Aldus PageMaker including 
-          versions of Lorem Ipsum.</h6>
+          versions of Lorem Ipsum.</p>
           </div>
     </div>
     </>
