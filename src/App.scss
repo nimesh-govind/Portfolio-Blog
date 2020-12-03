@@ -52,51 +52,6 @@ header {
   
 }
 
-.title-1 h1 { 
-  position: absolute;
-  bottom: 10%;
-  left: 37%;
-  transform: translate(-50%, -50%);
-  color: white;
-  animation: fadeIn ease 7s;
-  -webkit-animation: fadeIn ease 7s;
-}
-
-.title-2 h1 {
-  position: absolute;
-  bottom: 5%;
-  left: 37%;
-  transform: translate(-50%, -50%);
-  color: white;
-  -webkit-text-stroke: 1px white;
-  animation: fadeIn ease 7s;
-  -webkit-animation: fadeIn ease 7s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
 
 //*********************-----UNUSED-----****************************
