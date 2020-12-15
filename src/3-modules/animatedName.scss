@@ -1,0 +1,122 @@
+.maintitle {
+    position: absolute;
+    padding-right: 40rem;
+    margin-bottom: 20rem;
+    font-size: 185px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .maintitleline2 {
+    position: absolute;
+    font-size: 150px;
+    padding-right: 14rem;
+    margin-bottom: 0rem;
+    margin-top: 8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+  }
+
+  .nimesh {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #nimesh-position { 
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    animation: fill 0.5s ease forwards 3.5s;
+  }
+
+  #nimesh-position path:nth-child(1){
+    stroke-dasharray: 604.48;
+    stroke-dashoffset: 604.48;
+    animation: line-anim 2s ease forwards;
+  }
+  #nimesh-position path:nth-child(2){
+    stroke-dasharray: 226.94;
+    stroke-dashoffset: 226.94;
+    animation: line-anim 2s ease forwards 0.3s;  
+  }
+  #nimesh-position path:nth-child(3){
+    stroke-dasharray: 754.92;
+    stroke-dashoffset: 754.92;
+    animation: line-anim 2s ease forwards 0.6s;   
+  }
+  #nimesh-position path:nth-child(4){    
+    stroke-dasharray: 463.96;
+    stroke-dashoffset: 463.96;
+    animation: line-anim 2s ease forwards 0.9s;   
+  }
+  #nimesh-position path:nth-child(5){
+    stroke-dasharray: 493.91;
+    stroke-dashoffset: 493.91;
+    animation: line-anim 2s ease forwards 1.2s;     
+  }
+  #nimesh-position path:nth-child(6){
+    stroke-dasharray: 534.52;
+    stroke-dashoffset: 534.52;
+    animation: line-anim 2s ease forwards 1.5s;     
+  }
+
+  #govind-position {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    // animation: fill 0.5s ease forwards 3.5s;
+  }
+
+  #govind-position path:nth-child(1) {
+    stroke-dasharray: 635.7;
+    stroke-dashoffset: 635.7;
+    animation: line-anim 2s ease forwards;
+  }
+  #govind-position path:nth-child(2) {
+    stroke-dasharray: 565.9;
+    stroke-dashoffset: 565.9;
+    animation: line-anim 2s ease forwards 0.3s;
+  }
+  #govind-position path:nth-child(3) {
+    stroke-dasharray: 441.6;
+    stroke-dashoffset: 441.6;
+    animation: line-anim 2s ease forwards 0.6s;
+  }
+  #govind-position path:nth-child(4) {
+    stroke-dasharray: 226.9;
+    stroke-dashoffset: 226.9;
+    animation: line-anim 2s ease forwards 0.9s;
+  }
+  #govind-position path:nth-child(5) {
+    stroke-dasharray: 604.4;
+    stroke-dashoffset: 604.4;
+    animation: line-anim 2s ease forwards 1.2s;
+  }
+  #govind-position path:nth-child(6) {
+    stroke-dasharray: 571.5;
+    stroke-dashoffset: 571.5;
+    animation: line-anim 2s ease forwards 1.5s;
+  }
+
+  @keyframes line-anim{
+    to{
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes fill{
+    from{
+      fill: transparent;
+    }
+    to{
+      fill: white;
+    }
+  }

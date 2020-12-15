@@ -1,11 +1,10 @@
 ## CURRENTLY IN DEVELOPMENT
 
 ## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
-Nimesh Govind - Portfolio is a web space to showcase my skills as a Full Stack Software Developer, Photographer and Videographer. It will also be a place to my personal blogs of my choice.  
+**Nimesh Govind - Portfolio** is a web space to showcase my skills as a Full Stack Software Developer, Photographer and Videographer. It will also be a place to have personal blogs of my choice.  
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This motivation behind this site is to **showcase my skills** to employers or for anyone who wishes to view my background, experience, and technical abilities. Is also a testing ground for my skills.
 
 ## Build status
 Build status of continus integration i.e. travis, appveyor etc. Ex. - 
@@ -19,29 +18,50 @@ If you're using any code style like xo, standard etc. That will help others whil
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-Include logo/demo screenshot etc.
+Coming soon...
 
 ## Tech/framework used
 Ex. -
 
 <b>Built with</b>
-- [Electron](https://electron.atom.io)
+- [React](https://reactjs.org/)
 
 ## Features
 What makes your project stand out?
+This project will have:
+
+- a video interview
+- an about me page
+- getting in touch page
+- exploring my main skills (Dev, Photographer, Videographer)
+- blogs written by myself
 
 ## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Coming soon...
+<!-- Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise. -->
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+
+### `npm start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
 ## API Reference
+Null currently...
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+<!-- Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live. -->
 
 ## Tests
-Describe and show how to run the tests with code examples.
+In the project directory, you can run:
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
@@ -56,28 +76,11 @@ Give proper credits. This could be a link to any repo which inspired you to buil
 #### Anything else that seems useful
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [Yourname]()
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---------------------------------------------------------------------------------------
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**EXTRA**
 
 ### `npm run build`
 
