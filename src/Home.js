@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import "./App.scss"
 
-import About from "./About"
-import Photography from "./Photography"
-import Videography from "./Videography"
+// import About from "./About"
+// import Photography from "./Photography"
+// import Videography from "./Videography"
 
-function App() {
+function Home() {
 //*******************LOOP TO FIND PATH LENGTH THROUGH INDEX.HTML */
   // const logo = document.querySelectorAll("#govind-position path");
   // for (let i = 0; i < logo.length; i++) {
@@ -16,7 +16,6 @@ function App() {
 //************************************************************** */
   return (
     <>
-    <Router>
     <div className="App">
       <header>
         <div className="home-title">
@@ -48,11 +47,6 @@ function App() {
         <h1>Hi there, im Nimesh.</h1>
         <h1>Full Stack Developer,</h1>
         <h1>Photographer, and Videographer.</h1>
-        <Switch>
-        <Route path="/about" component={About}/>
-        <Route path="/photography" component={Photography} />
-        <Route path="/videography" component={Videography} />
-        </Switch>
       <p>Additional content goes below</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -64,10 +58,8 @@ function App() {
           versions of Lorem Ipsum.</p>
           </div>
     </div>
-    </Router>
     </>
   );
 }
 
-export default App;
-
+export default Home;
