@@ -1,11 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
 import "./App.scss"
-
-// import About from "./About"
-// import Photography from "./Photography"
-// import Videography from "./Videography"
 
 function Home() {
 //*******************LOOP TO FIND PATH LENGTH THROUGH INDEX.HTML */
@@ -47,6 +43,10 @@ function Home() {
         <h1>Hi there, im Nimesh.</h1>
         <h1>Full Stack Developer,</h1>
         <h1>Photographer, and Videographer.</h1>
+        <h2><Link to="/photography">Photography</Link></h2>
+        <h2><Link to="/videography">Videography</Link></h2>
+        <h2><Link to="/about">About</Link></h2>
+
       <p>Additional content goes below</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
